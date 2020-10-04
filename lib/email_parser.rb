@@ -10,7 +10,8 @@ class EmailAddressParser
     @email=email
   end
   
-  
+  def parse
+    email.split
     
   
   
