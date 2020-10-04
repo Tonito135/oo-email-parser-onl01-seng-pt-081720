@@ -12,7 +12,9 @@ class EmailAddressParser
   
   def parse
     email_addresses.split.collect do |email|
-      email.split
+      email.split(',')
+    end
+  end
     
   
   
